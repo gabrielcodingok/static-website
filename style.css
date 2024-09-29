@@ -1,0 +1,28 @@
+/* Center the welcome text and make it responsive */
+.container-fluid {
+    background-color: #f8f9fa;
+}
+
+/* Customize welcome text size for different devices */
+h1 {
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 769px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
